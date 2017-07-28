@@ -1,0 +1,129 @@
+
+<!-- saved from url=(0041)file:///home/codept/Desktop/Register.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>Registration</title>
+		<style>
+		*{
+			margin:0px;
+			padding:0px;
+		}
+body{
+	background-color:skyblue;
+}
+		header
+		{
+		background-color:rgb(128,255,128);
+		height:100px;
+		width:100%;
+		}
+		.container{
+				width:80%;
+				height:100px;
+				
+				margin:0 auto; 
+				height:500px;
+				text-align:center;
+		}
+		.form-input{
+			margin:0 auto;
+		}
+		input[type=submit]
+		{
+			font-size:20px;
+			float:right;
+		}
+		input[type=reset]
+		{
+			font-size:20px;
+			float:right;
+		}
+		.form-input{
+			margin:0 auto;
+			margin-bottom: 5px; 	
+			font-size:20px;
+		}
+		footer{
+			width:100%;
+			height: 200px;
+			background-color: black;
+		}
+		input[type=text],input[type=email],input[type=date]
+		{
+			width:40%;
+		}
+		label{
+		width:20%;	
+		}
+		select 
+		{
+			width:50%;
+		}
+		
+		</style>
+	
+	</head>
+	<body>
+		<header>
+			<h1>Sign Up</h1>
+		</header>
+		<form>
+		<div class="container">
+			
+				<div class="form-input">
+					<label for="first-name">First Name</label>
+					<input type="text" name="first_name" placeholder="Enter First Name">
+				</div>
+				<div class="form-input">
+					<label for="last-name">Last Name</label>
+					<input type="text" name="last_name" placeholder="Enter Last Name">
+				</div>
+				<div class="form-input">
+					<label for="screen-name">Screen Name</label>
+					<input type="text" name="screen_name" placeholder="Enter Screen Name">
+				</div>
+				<div class="form-input"> 
+				<label for="dob">Date of Birth</label>
+				<input type="date" name="date">
+				</div>
+				<div class="form-input">
+				<label for="gender">Gender</label>
+					<input type="radio" name="gender" value="Male">Male
+					<input type="radio" name="gender" value="Female">Female
+				</div>
+				<div class="form-input">
+				<label for="country">Country</label>
+					<select>
+						<option value="india" name="india">India</option>
+						<option value="usa" name="usa">USA</option>		
+						<option value="pakistan" name="pakistan">Pakistan</option>			
+						<option value="dubai" name="dubai">Dubai</option>
+					</select>
+				</div>
+				<div class="form-input">
+					<label for="email">Email</label>
+					<input type="email" name="email" placeholder="Enter E-mail">
+				</div>
+				<div class="form-input">
+					<label for="mobile">Mobile</label>
+					<input type="text" name="mobile" placeholder="Enter Phone">
+				</div>
+				<div class="form-input">
+					<label for="password">Password</label>
+					<input type="text" name="mobile">
+				</div>
+				<div class="form-input">
+					<label for="confirm-password">Confirm Password</label>
+					<input type="text" name="confirm_password">
+				</div>
+				<div class="form-input">	
+					<input type="checkbox" name="terms">I agree to the Terms of Use
+				</div>
+		</div>
+		<footer>
+		<input type="reset" value="Cancel" name="cancel" style="margin-top:10px;background-color: red">
+			<input type="submit" value="submit" name="submit" style="margin-top:10px;background-color: green">
+			
+		</footer>
+		</form>
+	
+</body></html>
